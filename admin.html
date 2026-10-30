@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dls26">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Coupe DLS — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="themes.css">
+<link rel="stylesheet" href="fond.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <a class="brand" href="index.html">COUPE DLS · ADMIN</a>
+    <nav class="nav"><a class="pill" href="coupe.html">Voir le site</a><a class="pill" href="#" id="deco" style="display:none;">Déconnexion</a></nav>
+  </header>
+
+  <div id="flash" style="position:sticky;top:8px;z-index:5;"></div>
+
+  <div id="login" class="panel" style="max-width:420px;margin:30px auto;">
+    <div class="band yellow"><span>CONNEXION ADMIN</span></div>
+    <form class="pb" id="formLogin">
+      <div class="field"><label for="email">E-mail</label><input id="email" type="email" autocomplete="username" required></div>
+      <div class="field"><label for="mdp">Mot de passe</label><input id="mdp" type="password" autocomplete="current-password" required></div>
+      <button class="btn block" type="submit">Se connecter</button>
+      <div id="loginMsg"></div>
+    </form>
+  </div>
+
+  <div id="app" style="display:none;"></div>
+</div>
+<script src="fond.js"></script>
+<script src="config.js"></script>
+<script src="moteur.js"></script>
+<script src="commun.js"></script>
+<script src="actions.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

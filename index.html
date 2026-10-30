@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dls26">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coupe DLS — Inscription</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="themes.css">
+<link rel="stylesheet" href="fond.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page" style="max-width:620px;">
+  <header class="top">
+    <a class="brand" href="index.html">COUPE DLS</a>
+    <nav class="nav"><a class="pill" href="coupe.html">Tableau</a><a class="pill" href="match.html">Mon match</a></nav>
+  </header>
+
+  <p class="eyebrow">Compétition Dream League Soccer</p>
+  <h1>Rejoins la coupe</h1>
+  <p class="lede">Inscris-toi, découvre ton groupe, joue tes matchs et monte jusqu'à la finale.</p>
+
+  <div class="panel">
+    <div class="band blue"><span id="coupeNom">Chargement…</span><span class="pill" id="coupePhase" style="color:#fff;border-color:rgba(255,255,255,.6);"></span></div>
+    <div class="pb" id="coupeInfo"></div>
+  </div>
+
+  <div class="panel" id="actionPanel" style="display:none;"><div class="pb" id="action"></div></div>
+
+  <footer class="bas"><a href="#" id="changer" style="display:none;">Ce n'est pas moi — changer de joueur</a></footer>
+</div>
+<script src="fond.js"></script>
+<script src="config.js"></script>
+<script src="moteur.js"></script>
+<script src="commun.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* ===== THÈMES PAR ANNÉE =====
+   Pour changer d'année : modifie data-theme="..." sur la balise <html> de chaque page.
+   Pour ajouter une année : copie le bloc dls26 ci-dessous, renomme-le (ex. dls27) et change les valeurs. */
+:root, [data-theme="dls26"] {
+  --bg-left:#1B3FB5;
+  --bg-mid:#4B1F7A;
+  --bg-right:#B02A4A;
+  --ring:#FFFFFF;
+  --text:#FCFCFC;
+  --muted:#9AA6D6;
+  --panel:rgba(8,12,40,0.82);
+  --panel-line:rgba(255,222,255,0.28);
+  --band-red:#E43C24;
+  --band-blue:#438AF2;
+  --band-purple:#8A3FD0;
+  --band-yellow:#F2C230;
+  --accent:#E43C24;
+  --accent-text:#FFFFFF;
+  --good:#7FCB8F;
+  --danger:#FF6B5E;
+}
